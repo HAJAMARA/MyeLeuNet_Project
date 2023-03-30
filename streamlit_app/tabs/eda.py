@@ -204,7 +204,7 @@ def run():
 
     cont_2 = st.container()
     with cont_2.expander('Représentation de cellules "moyennes" et histogrammes des canaux RGB'):
-        NEU, LYM, MYB, MON, EOS, IG, ART, PLT, ERY, BAS = st.tabs(['NEU', 'LYM', 'MYB', 'MON', 'EOS', 'IG', 'ART', 'PLT', 'ERY', 'BAS'])
+        NEU, LYM, MYB, MON, EOS, IG, MYC, MMC, PYC, ART, PLT, ERY, BAS = st.tabs(['NEU', 'LYM', 'MYB', 'MON', 'EOS', 'IG', 'MYC', 'MMC', 'PYC', 'ART', 'PLT', 'ERY', 'BAS'])
         with NEU:
             col1, col2=st.columns(2)
             with col1: 
@@ -264,6 +264,36 @@ def run():
             with col2: 
                 st.image(
                     Image.open("data/eda/avg_hist_IG.png"), width=500
+                ) 
+        with MYC:
+            col1, col2=st.columns(2)
+            with col1: 
+                st.image(
+                    Image.open("data/eda/avg_img_MYC.png"), width=350
+                )
+            with col2: 
+                st.image(
+                    Image.open("data/eda/avg_hist_MYC.png"), width=500
+                ) 
+        with MMC:
+            col1, col2=st.columns(2)
+            with col1: 
+                st.image(
+                    Image.open("data/eda/avg_img_MMC.png"), width=350
+                )
+            with col2: 
+                st.image(
+                    Image.open("data/eda/avg_hist_MMC.png"), width=500
+                )
+        with PYC:
+            col1, col2=st.columns(2)
+            with col1: 
+                st.image(
+                    Image.open("data/eda/avg_img_PYC.png"), width=350
+                )
+            with col2: 
+                st.image(
+                    Image.open("data/eda/avg_hist_PYC.png"), width=500
                 ) 
         with ART:
             col1, col2=st.columns(2)
