@@ -14,3 +14,5 @@ This project was developed by the following team :
 
 ## Streamlit Demo
 The Streamlit demo is available [**here**](https://myeleunet.streamlit.app/).
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://myeleunet.streamlit.streamlit.app)
