@@ -103,7 +103,7 @@ def run():
       - [Données Raabin](https://raabindata.com/free-data/#double-labeled-cropped-cells), patients sains uniquement (source : [Mousavi Kouzehkanan et al., 2021](https://www.biorxiv.org/content/10.1101/2021.05.02.442287v4))
 
       Les nomenclatures des types cellulaires étaient variées et différentes d'une source de données à une autre. 
-      Il nous a fallu, dans un premier temps, trouvé une nomenclature commune. Ainsi, nous sommes passé de 48 noms de classes initiales à 15 seulement.
+      Il nous a fallu, dans un premier temps, trouvé une nomenclature commune. Ainsi, nous sommes passés de 48 noms de classes initiales à 15 seulement.
       """
     )
     
