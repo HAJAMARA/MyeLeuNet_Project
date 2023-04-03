@@ -116,7 +116,7 @@ def run():
 
     st.markdown(
         """
-        #### Recherche d'ouliers
+        #### Recherche d'outliers
 
         """
     ) 
